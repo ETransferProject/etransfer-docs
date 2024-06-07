@@ -1,7 +1,7 @@
 # Table of contents
 
 * [About ETransfer](README.md)
-  * [About ETransfer](about-etransfer/about-etransfer.md)
+  * [Introduction](about-etransfer/introduction.md)
   * [Business process](about-etransfer/business-process/README.md)
     * [Deposit process](about-etransfer/business-process/deposit-process.md)
     * [Withdraw process](about-etransfer/business-process/withdraw-process.md)
