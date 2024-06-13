@@ -18,3 +18,7 @@
 * [Install portkey wallet](install-portkey-wallet.md)
 * [FAQ](faq.md)
 * [Contact us](contact-us.md)
+
+## MORE INFORMATION
+
+* [Privacy Policy](more-information/privacy-policy.md)
