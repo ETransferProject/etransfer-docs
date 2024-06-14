@@ -21,4 +21,5 @@
 
 ## MORE INFORMATION
 
+* [Terms of Service](more-information/terms-of-service.md)
 * [Privacy Policy](more-information/privacy-policy.md)
