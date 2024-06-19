@@ -2,7 +2,7 @@
 
 ### **What is ETransfer?**
 
-ETransfer is a cross-chain service developed by the ETransfer team of the Aelf community,， Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems, and push our industry towards more openness and interoperability.
+ETransfer is a cross-chain service developed by the ETransfer team of the aelf community,， Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems, and push our industry towards more openness and interoperability.
 
 
 
@@ -15,7 +15,7 @@ ETransfer is a cross-chain service developed by the ETransfer team of the Aelf c
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### **How to withdraw from Aelf by ETransfer?**
+### **How to withdraw from aelf by ETransfer?**
 
 1. Confirm which chain to withdraw assets from
 2. Select the asset you want to withdraw

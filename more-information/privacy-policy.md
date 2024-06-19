@@ -26,7 +26,7 @@ We use the information we collect to:
 * customize and enhance your browsing experience on our Website;
 * dispatch technical notifications, security alerts, and support and administrative messages;
 * address your inquiries and concerns and deliver customer support;
-* inform you about products, services, and events offered by Aelf and other entities, as well as furnish news and information that we believe may be of interest to you;
+* inform you about products, services, and events offered by aelf and other entities, as well as furnish news and information that we believe may be of interest to you;
 * monitor and analyze trends, usage patterns, and activities associated with our Website;
 * administer contests, sweepstakes, and promotions, and process and deliver entries and rewards;
 * identify, investigate, and prevent security incidents and other malicious, deceptive, fraudulent, or unlawful activities, and safeguard the rights and property of Solana and others;

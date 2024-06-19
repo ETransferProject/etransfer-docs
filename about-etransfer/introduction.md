@@ -2,9 +2,9 @@
 
 
 
-ETransfer is a cross-chain service developed by the ETransfer team of the Aelf community, Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems,designed to address the interoperability of user assets between EVM chains and the Aelf chain.&#x20;
+ETransfer is a cross-chain service developed by the ETransfer team of the aelf community, Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems,designed to address the interoperability of user assets between EVM chains and the aelf chain.&#x20;
 
-With ETransfer, users can swiftly transfer assets from EVM chains to the Aelf chain and withdraw them from the Aelf chain at any time. Compared to other cross-chain services, ETransfer has the following four features:
+With ETransfer, users can swiftly transfer assets from EVM chains to the aelf chain and withdraw them from the aelf chain at any time. Compared to other cross-chain services, ETransfer has the following four features:
 
 * **Safe**：Professional third-party custody service, assets are safer
 * **Fast**：Faster than traditional cross-chain services
