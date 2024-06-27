@@ -6,8 +6,8 @@
 
 Transfer assets from the aelf chain to other chains.
 
-{% content-ref url="../../readme/business-process/withdraw-process.md" %}
-[withdraw-process.md](../../readme/business-process/withdraw-process.md)
+{% content-ref url="../../about-etransfer/business-process/withdraw-process.md" %}
+[withdraw-process.md](../../about-etransfer/business-process/withdraw-process.md)
 {% endcontent-ref %}
 
 **SDK - Withdraw Assets**

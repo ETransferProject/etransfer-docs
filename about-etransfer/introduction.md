@@ -11,6 +11,6 @@ With ETransfer, users can swiftly transfer assets from EVM chains to the aelf ch
 
 Additionally, ETransfer has developed and released the ETransfer SDK, which provides fundamental methods that allow community developers to integrate ETransfer's deposit and withdrawal functions more flexibly.
 
-{% content-ref url="../readme-1/" %}
-[readme-1](../readme-1/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
