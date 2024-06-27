@@ -18,7 +18,7 @@ You can find basic configuration information here, including server address, etc
   * ```json
     {
       "chainId": "AELF",
-      "exploreUrl": "https://explorer.aelf.io/",
+      "exploreUrl": "https://explorer.aelf.io",
       "endPoint": "https://aelf-public-node.aelf.io",
       "tokenContract": "JRmBduh4nXWi1aXgdUsj5gJrzeZb2LxmrAbf7W99faZSvoAaE",
       "caContractV1": "28PcLvP41ouUd6UNGsNRvKpkFTe6am34nPy4YPsWUJnZNwUvzM",
@@ -30,7 +30,7 @@ You can find basic configuration information here, including server address, etc
   * ```json
     {
       "chainId": "tDVV",
-      "exploreUrl": "https://tdvv-explorer.aelf.io/",
+      "exploreUrl": "https://tdvv-explorer.aelf.io",
       "endPoint": "https://tdvv-public-node.aelf.io",
       "tokenContract": "7RzVGiuVWkvL4VfVHdZfQF2Tri3sgLe9U991bohHFfSRZXuGX",
       "caContractV1": "2cLA9kJW3gdHuGoYNY16Qir69J3Nkn6MSsuYxRkUHbz4SG2hZr",
@@ -51,7 +51,7 @@ You can find basic configuration information here, including server address, etc
   * ```json
     {
       "chainId": "AELF",
-      "exploreUrl": "https://explorer-test.aelf.io/",
+      "exploreUrl": "https://explorer-test.aelf.io",
       "endPoint": "https://aelf-test-node.aelf.io",
       "tokenContract": "JRmBduh4nXWi1aXgdUsj5gJrzeZb2LxmrAbf7W99faZSvoAaE",
       "caContractV1": "iupiTuL2cshxB9UNauXNXe9iyCcqka7jCotodcEHGpNXeLzqG",
@@ -63,7 +63,7 @@ You can find basic configuration information here, including server address, etc
   * ```json
     {
       "chainId": "tDVW",
-      "exploreUrl": "https://explorer-test-side02.aelf.io/",
+      "exploreUrl": "https://explorer-test-side02.aelf.io",
       "endPoint": "https://tdvw-test-node.aelf.io",
       "tokenContract": "ASh2Wt7nSEmYqnGxPPzp4pnVDU4uhj1XW9Se5VeZcX2UDdyjx",
       "caContractV1": "2WzfRW6KZhAfh3gCZ8Akw4wcti69GUNc1F2sXNa2fgjndv59bE",

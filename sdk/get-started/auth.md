@@ -110,4 +110,3 @@ const tokenExpired = result.expires_in;
 
 <table><thead><tr><th width="179">Field</th><th width="184">Type</th><th>Remarks</th></tr></thead><tbody><tr><td>token_type</td><td><code>string</code></td><td>The return token type, such as <code>Bearer</code>.</td></tr><tr><td>access_token</td><td><code>string</code></td><td>The return token body.</td></tr><tr><td>expires_in</td><td><code>number</code></td><td>Token expiration time, unit is seconds.</td></tr></tbody></table>
 
-\\
