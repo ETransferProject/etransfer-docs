@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To requesting the token, network, and other interface data for deposit and withdrawal services, you need to mount authorization token to the HTTP request header.
+To request the token, network, and other interface data for deposit and withdrawal services, you need to mount the authorization token to the HTTP request header.
 
 ## How to use
 
@@ -13,10 +13,10 @@ For the configuration items used in the following examples, please refer to:
 {% endcontent-ref %}
 
 {% hint style="info" %}
-* Normally, you only need one `ETransferCore` instance already initialized.
+* Normally, you only need one `ETransferCore` instance initialized.
   * For example:
-    * [Get authorization token from the interface, and cache the data.](auth.md#get-authorization-token-from-the-interface-and-cache-the-data)
-    * [Get authorization token from storage or interface, and cache the data.](auth.md#get-authorization-token-from-storage-or-interface-and-cache-the-data)
+    * [Get the authorization token from the interface, and cache the data.](auth.md#get-the-authorization-token-from-the-interface-and-cache-the-data)
+    * [Get the authorization token from the storage or interface, and cache the data.](auth.md#get-the-authorization-token-from-the-storage-or-interface-and-cache-the-data)
 * If you want to get a new token without any additional business logic.
   * For example:
     * [Only getting authorization tokens from the interface.](auth.md#only-getting-authorization-tokens-from-the-interface)
@@ -40,7 +40,7 @@ yarn add @etransfer/core
 First, init the ETransferCore instance. You can find it in [ETransfer SDK Quick Start](quick-start.md#init-the-etransfercore-instance).
 {% endhint %}
 
-#### Get authorization token from the interface, and cache the data.
+#### Get the authorization token from the interface, and cache the data.
 
 After getting the token, mount it to the request header and set it to storage.
 
@@ -61,7 +61,7 @@ const token = await eTransferCore.getAuthTokenFromApi(methodParameters);
 
 <table><thead><tr><th width="185">Field</th><th width="175">Type</th><th>Remarks</th></tr></thead><tbody><tr><td>token</td><td><code>string</code></td><td>The authorization token.</td></tr></tbody></table>
 
-#### Get authorization token from storage or interface, and cache the data.
+#### Get the authorization token from the storage or interface, and cache the data.
 
 Get data from the cache first. If the data in the storage has expired, it will get a new token from the interface.After getting the token, mount it to the request header and set it to storage.
 

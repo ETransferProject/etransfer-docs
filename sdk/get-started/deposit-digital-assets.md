@@ -71,7 +71,7 @@ const result = await eTransferCore.services.getTokenOption({ type: BusinessType.
 
 #### Get supported networks
 
-Acquire the list of networks supported by ETransfer.You can find which networks are supported for deposit and swap.You can get the basic information and the block confirmations of the network, etc.
+Acquire the list of networks supported by ETransfer.You can find which networks support the deposit and swap functions.You can get basic information and the block confirmations of the network, etc.
 
 **Example**
 
