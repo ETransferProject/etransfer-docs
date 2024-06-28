@@ -7,7 +7,7 @@ ETransfer is a cross-chain service developed by the ETransfer team of the aelf c
 ### **How to deposit to aelf by ETransfer?**
 
 1. Connect Portket wallet
-2. Select deposit asset and received asset on aelf
+2. Select deposit asset and receive asset on aelf
 3. Confirm the chain to be deposited and the chain to receive assets
 4. Copy the address or scan the QR code to cross-chain deposit
 
