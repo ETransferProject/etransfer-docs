@@ -7,11 +7,11 @@ ETransfer is a cross-chain service developed by the ETransfer team of the aelf c
 ### **How to deposit to aelf by ETransfer?**
 
 1. Connect Portket wallet
-2. Select deposit asset
+2. Select deposit asset and received asset on aelf
 3. Confirm the chain to be deposited and the chain to receive assets
 4. Copy the address or scan the QR code to cross-chain deposit
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### **How to withdraw from aelf by ETransfer?**
 
@@ -22,7 +22,7 @@ ETransfer is a cross-chain service developed by the ETransfer team of the aelf c
 5. Input the amount to withdraw
 6. Confirm the withdrawal and sign in the portkey wallet
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **My assets have not arrived.**
 
