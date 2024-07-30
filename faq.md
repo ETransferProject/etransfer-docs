@@ -30,11 +30,11 @@ You can check the transfer status in History. If the hash of the receiving chain
 
 ### **How long does it take for the transfer to be completed?**
 
-The specific confirmation time depends on the third-party network. Confirmation on the Alef network is faster. Confirmation usually takes about 4 minutes. You can check the estimated completion time of your transaction on the history page.\\
+The specific confirmation time depends on the third-party network. Confirmation on the Alef network is faster. Confirmation usually takes about 4 minutes. You can check the estimated completion time of your transaction on the history page.
 
 ### **Can I receive other assets after cross-chain with ETransfer?**
 
-ETransfer allows users to swap assets to another asset while depositing assets into the aelf chain. The maximum slippage is 5%. If it exceeds 5%, Swap cannot be successful. Withdrawal does not currently support swap.\\
+ETransfer allows users to swap assets to another asset while depositing assets into the aelf chain. The maximum slippage is 5%. If it exceeds 5%, Swap cannot be successful. Withdrawal does not currently support swap.
 
 ### **Is it safe for users to deposit assets to ETransfer?**
 
@@ -43,3 +43,11 @@ Users' deposit funds are not managed by ETransfer, but by top-level custody comp
 ### **What should I do if I fill in the wrong address when withdrawing?**
 
 If you fill in the wrong address or choose the wrong network, the ETransfer team does not have the ability to help you recover your assets. Therefore, when you withdraw assets, you must check multiple times to ensure that the address and network are correct.
+
+### **What is the ETransfer Telegram bot?**
+
+The ETransfer bot is an official mini-App launched by ETransfer on Telegram. Telegram users can use ETransfer without downloading and registering aelf chain wallet, enabling asset transfers between the aelf chain and other chains. Currently, Telegram users can use all ETransfer functions, including Deposit, Withdraw, and Info.
+
+### **How to use the ETransfer bot**
+
+Go to \[[https://t.me/ETransferOfficial\_bot](https://t.me/ETransferOfficial\_bot)] and click "Start" or directly type "/Start" to see the current ETransfer function menu.
