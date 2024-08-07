@@ -17,6 +17,7 @@ For the configuration items used in the following examples, please refer to:
   * For example:
     * [Get the authorization token from the interface, and cache the data.](auth.md#get-the-authorization-token-from-the-interface-and-cache-the-data)
     * [Get the authorization token from the storage or interface, and cache the data.](auth.md#get-the-authorization-token-from-the-storage-or-interface-and-cache-the-data)
+    * [Get the authorization token from the storage.](auth.md#get-the-authorization-token-from-the-storage)
 * If you want to get a new token without any additional business logic.
   * For example:
     * [Only getting authorization tokens from the interface.](auth.md#only-getting-authorization-tokens-from-the-interface)
@@ -76,13 +77,41 @@ const token = await eTransferCore.getAuthToken(methodParameters);
 
 **Method Parameters**
 
-<table><thead><tr><th width="175">Field</th><th width="185">Type</th><th width="100">Required</th><th>Remarks</th></tr></thead><tbody><tr><td>chainId</td><td><code>ChainId</code></td><td><code>true</code></td><td><code>'AELF' | 'tDVV</code>'</td></tr><tr><td>caHash</td><td><code>string</code></td><td><code>true</code></td><td>user ca hash</td></tr><tr><td>managerAddress</td><td><code>string</code></td><td><code>true</code></td><td>user manager address</td></tr><tr><td>pubkey</td><td><code>string</code></td><td><code>true</code></td><td>user account pubkey</td></tr><tr><td>plainText</td><td><code>string</code></td><td><code>true</code></td><td>signed text</td></tr><tr><td>signature</td><td><code>string</code></td><td><code>true</code></td><td>user signature</td></tr><tr><td>version</td><td><code>PortkeyVersion</code></td><td><code>true</code></td><td><p><code>'v1' | 'v2'</code>.</p><p>Recommend using <code>'v2'</code></p></td></tr></tbody></table>
+<table><thead><tr><th width="175">Field</th><th width="185">Type</th><th width="100">Required</th><th>Remarks</th></tr></thead><tbody><tr><td>chainId</td><td><code>ChainId</code></td><td><code>true</code></td><td><code>'AELF' | 'tDVV'</code></td></tr><tr><td>caHash</td><td><code>string</code></td><td><code>true</code></td><td>user ca hash</td></tr><tr><td>managerAddress</td><td><code>string</code></td><td><code>true</code></td><td>user manager address</td></tr><tr><td>pubkey</td><td><code>string</code></td><td><code>true</code></td><td>user account pubkey</td></tr><tr><td>plainText</td><td><code>string</code></td><td><code>true</code></td><td>signed text</td></tr><tr><td>signature</td><td><code>string</code></td><td><code>true</code></td><td>user signature</td></tr><tr><td>version</td><td><code>PortkeyVersion</code></td><td><code>true</code></td><td><p><code>'v1' | 'v2'</code>.</p><p>Recommend using <code>'v2'</code></p></td></tr></tbody></table>
 
 **Method return value**
 
 | Field | Type   | Remarks                  |
 | ----- | ------ | ------------------------ |
 | token | string | The authorization token. |
+
+#### Get the authorization token from the storage.
+
+Get the authorization token from the storage.
+
+{% hint style="info" %}
+The premise is that authorization token has been obtained from the interface before.
+{% endhint %}
+
+If the authorization token is expired, return `undefined`.
+
+**Example**
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const token = await eTransferCore.getAuthTokenFromStorage(methodParameters);
+```
+
+**Method Parameters**
+
+<table><thead><tr><th width="175">Field</th><th width="185">Type</th><th width="100">Required</th><th>Remarks</th></tr></thead><tbody><tr><td>walletType</td><td>TWalletType</td><td><code>true</code></td><td><code>'portkey' | 'nightElf'</code></td></tr><tr><td>managerAddress</td><td><code>string</code></td><td><code>true</code></td><td>user manager address</td></tr><tr><td>caHash</td><td><code>string</code></td><td><code>false</code></td><td>user ca hash</td></tr></tbody></table>
+
+**Method return value**
+
+| Field | Type                  | Remarks                  |
+| ----- | --------------------- | ------------------------ |
+| token | `string \| undefined` | The authorization token. |
 
 #### Only getting authorization tokens from the interface.
 
