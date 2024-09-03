@@ -10,7 +10,7 @@ Deposit assets from other chains to the aelf chain.
 
 A deposit address is generated based on the token, network and other information selected by the user. The user transfers crypto to the deposit address, then the ETransfer server will send tokens to the user's aelf chain account.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to use
 

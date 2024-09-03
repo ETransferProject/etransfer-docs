@@ -14,7 +14,7 @@ Transfer assets from the aelf chain to other chains.
 
 Based on the token, network and other information selected by the user, generate TransactionRaw and submit it to the server to complete the creation of the withdrawal order.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to use
 
