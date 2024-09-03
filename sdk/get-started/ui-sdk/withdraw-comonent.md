@@ -16,9 +16,9 @@ If you want to quickly access the ETransfer withdrawal function, please use this
 * **Estimated received:** After entering the above information, detailed withdrawal information will be automatically retrieved. You will see the estimated amount received, fees, and gas costs.
 * **Complete the withdrawal:** Click the _Withdraw_ button and follow the prompts to authorize the withdrawal, and you can complete the withdrawal.
 
-<figure><img src="https://aelfblockchain.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OWM3NTI5ZTQyZjNkYmVjZDdhZTVhMmEzODE4MjQzYjhfR0FidzFUdDBIWEFMS3hRTUY2UUl2SDUyUjExdUNQYTBfVG9rZW46UThrRWJ5R3Nrb2F1VnZ4NGtCVGxLVmlNZ0VlXzE3MjUzNTc2ODI6MTcyNTM2MTI4Ml9WNA" alt="" width="188"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="https://aelfblockchain.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OWM3NTI5ZTQyZjNkYmVjZDdhZTVhMmEzODE4MjQzYjhfR0FidzFUdDBIWEFMS3hRTUY2UUl2SDUyUjExdUNQYTBfVG9rZW46UThrRWJ5R3Nrb2F1VnZ4NGtCVGxLVmlNZ0VlXzE3MjUzNTc2ODI6MTcyNTM2MTI4Ml9WNA" alt="" width="375"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="https://aelfblockchain.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YjQzYzFjZmUwMmRjZTMxN2ViYzNmYjU5ODZjZmUxM2NfQlJaOWZ4UmhHRUZ3bVhIOGlOc1JUM1hDY3dSNGt0OHNfVG9rZW46WDNVOWJ0dXR4b1lMN0F4TGlyU2xjY0VzZ2ZkXzE3MjUzNTc2ODI6MTcyNTM2MTI4Ml9WNA" alt="" width="563"><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="https://aelfblockchain.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YjQzYzFjZmUwMmRjZTMxN2ViYzNmYjU5ODZjZmUxM2NfQlJaOWZ4UmhHRUZ3bVhIOGlOc1JUM1hDY3dSNGt0OHNfVG9rZW46WDNVOWJ0dXR4b1lMN0F4TGlyU2xjY0VzZ2ZkXzE3MjUzNTc2ODI6MTcyNTM2MTI4Ml9WNA" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
 
 ## How to use
 

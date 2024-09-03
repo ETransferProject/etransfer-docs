@@ -12,9 +12,9 @@ If you want to quickly access the querying history function, please use this UI 
 * You can filter transaction records by transaction type, status, and date.
 * You can view more transaction details by entering your address and transaction hash.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="188"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
 
 ## How to use
 

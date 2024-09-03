@@ -16,21 +16,21 @@ If you want to quickly access the deposit, withdrawal and querying history funct
 * **Display User account address:** Display the user's account address in the navigation header. You can also choose to hide it.
 * **Jump to the ETransfer official website:** Click the logo in the navigation header to jump to the ETransfer official website.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="167"><figcaption><p>Deposit - ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="334"><figcaption><p>Deposit - ComponentStyle.Mobile</p></figcaption></figure>
 
 <div align="center">
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="167"><figcaption><p>Withdraw - ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="333"><figcaption><p>Withdraw - ComponentStyle.Mobile</p></figcaption></figure>
 
 </div>
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="167"><figcaption><p>History - ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="333"><figcaption><p>History - ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption><p>Deposit - ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Deposit - ComponentStyle.Web</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption><p>Withdraw - ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Withdraw - ComponentStyle.Web</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p>History - ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>History - ComponentStyle.Web</p></figcaption></figure>
 
 ## How to use
 

@@ -15,7 +15,7 @@
     * [🔐 Auth](sdk/get-started/auth.md)
     * [💰 Deposit Digital Assets](sdk/get-started/deposit-digital-assets.md)
     * [💰 Withdraw Digital Assets](sdk/get-started/withdraw-digital-assets.md)
-    * [UI SDK](sdk/get-started/ui-sdk/README.md)
+    * [⚒️ UI SDK](sdk/get-started/ui-sdk/README.md)
       * [Configuration](sdk/get-started/ui-sdk/configuration.md)
       * [Deposit Component](sdk/get-started/ui-sdk/deposit-component.md)
       * [Withdraw Comonent](sdk/get-started/ui-sdk/withdraw-comonent.md)

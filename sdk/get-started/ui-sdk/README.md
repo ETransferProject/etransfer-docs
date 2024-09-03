@@ -1,4 +1,4 @@
-# UI SDK
+# ⚒️ UI SDK
 
 {% content-ref url="configuration.md" %}
 [configuration.md](configuration.md)
