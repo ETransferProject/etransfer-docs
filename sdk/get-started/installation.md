@@ -92,19 +92,8 @@ yarn add @etransfer/ui-react
 
 ```json
 {
-  "@etransfer/core": "^1.2.0", // please use latest
-  "@etransfer/types": "^1.2.0", // please use latest
-  "@etransfer/utils": "^1.2.0", // please use latest
-  "@portkey/types": "2.6.6",
-  "@portkey/utils": "2.6.6",
-  "antd": "4.24.14",
-  "bignumber.js": "^9.1.0",
-  "clsx": "^1.2.1",
-  "lottie-web": "5.9.6",
-  "moment": "^2.29.4",
-  "query-string": "^7.1.1",
-  "react-qrcode-logo": "2.9.0",
-  "react-use": "^17.4.0",
-  "uuid": "^8.3.2"
+  "aelf-sdk": "^3.4.8",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
 }
 ```
