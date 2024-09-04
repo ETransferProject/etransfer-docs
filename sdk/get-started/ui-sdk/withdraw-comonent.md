@@ -6,7 +6,7 @@ If you want to quickly access the ETransfer withdrawal function, please use this
 
 ### Feature
 
-#### Deposit functions and UIs are as follows:
+#### Withdrawal functions and UIs are as follows:
 
 * **Select chain:** Select the aelf chain from which you will withdraw tokens.
 * **Select token**: Choose the token you wish to withdraw.
