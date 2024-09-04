@@ -57,7 +57,7 @@ yarn add @etransfer/utils
 
 #### Project Dependencies
 
-`@etransfer/core`'s peer dependencies are listed below, they need to be installed together.
+`@etransfer/utils`'s peer dependencies are listed below, they need to be installed together.
 
 ```json
 {
