@@ -8,7 +8,7 @@
 
 ## Demo
 
-{% embed url="https://github.com/ETransferProject/etransfer-toolkit/tree/feature/v1.0.0/packages/example" %}
+{% embed url="https://github.com/ETransferProject/etransfer-toolkit/tree/master/packages/example" %}
 
 ## How to use
 
@@ -64,6 +64,18 @@ const result = await eTransferCore.services.getAuthToken(
 );
 ```
 
+#### Check the transaction status of an EOA address
+
+```typescript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.checkEOARegistration(
+  {
+    address: 'your account address',
+  }
+);
+```
+
 #### Acquire supported cryptos
 
 ```javascript
@@ -78,6 +90,19 @@ const result = await eTransferCore.services.getTokenList({
   chainId: 'AELF', // or 'tDVV'
 });
 ```
+
+#### Acquire token price
+
+<pre class="language-typescript"><code class="lang-typescript">import { eTransferCore } from '@etransfer/core';
+
+// Get the price of a token
+const result = await eTransferCore.services.getTokenPrices({ symbols: 'USDT' });
+
+// Get the prices of several tokens
+const result = await eTransferCore.services.getTokenPrices({
+<strong>  symbols: 'USDT,SGR-1,ELF',
+</strong><strong>});
+</strong></code></pre>
 
 #### Acquire supported networks
 
@@ -159,6 +184,14 @@ const result = await eTransferCore.services.getRecordsList({
   skipCount: 0,
   maxResultCount: 100,
 });
+```
+
+#### Acquire transaction details
+
+```typescript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.getRecordDetail('orderId');
 ```
 
 #### If there are any unread messages
