@@ -17,9 +17,9 @@ If you want to quickly access the ETransfer deposit function, please use this UI
 * **Automatically obtain the deposit address:** After you select the tokens and networks, you will receive the deposit QR code and deposit address.
 * **Deposit assets:** You can scan the QR code or copy the deposit address to complete the deposit.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="371"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="371"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
 
 ## How to use
 
