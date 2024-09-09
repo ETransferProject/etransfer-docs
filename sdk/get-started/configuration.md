@@ -14,6 +14,9 @@ You can find basic configuration information here, including server address, etc
 * ETransfer auth server URL
   * [https://app.etransfer.exchange](https://app.etransfer.exchange)
   * Use it to obtain authorization token.
+* ETransfer socket server URL
+  * [https://app.etransfer.exchange](https://app.etransfer.exchange)
+  * Use it to establish a socket connection.
 * AELF information
   * ```json
     {
@@ -47,6 +50,9 @@ You can find basic configuration information here, including server address, etc
 * ETransfer auth server URL
   * [https://test-app.etransfer.exchange](https://test-app.etransfer.exchange)
   * Use it to obtain authorization token.
+* ETransfer socket server URL
+  * [https://test-app.etransfer.exchange](https://test-app.etransfer.exchange)
+  * Use it to establish a socket connection.
 * AELF information
   * ```json
     {

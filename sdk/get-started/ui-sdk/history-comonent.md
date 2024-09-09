@@ -20,7 +20,7 @@ If you want to quickly access the querying history function, please use this UI 
 
 ### Installation
 
-See More: [Installation | ETransfer](https://etransfer.gitbook.io/docs/sdk/get-started/installation)
+See More: [Installation | ETransfer](../installation.md)
 
 ```bash
 npm install @etransfer/ui-react
@@ -30,7 +30,7 @@ yarn add @etransfer/ui-react
 
 ### Config
 
-For the `ETransferConfig`, `ETransferStyleProvider` configuration used in the following examples, please refer to the [ETransfer UI SDK Config](configuration.md)
+For the `ETransferConfig`, `ETransferStyleProvider`, `ETransferLayoutProvider` configuration used in the following examples, please refer to the [ETransfer UI SDK Config](configuration.md)
 
 ### Example
 
@@ -49,6 +49,7 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
   ETransferConfig.setConfig({
     networkType: 'MAINNET', // 'MAINNET' | 'TESTNET'
     etransferUrl: 'etransfer service url',
+    etransferAuthUrl: 'etransfer authorization service url',
     authorization: {
       jwt: 'Bearer xxx', // ETransfer authorization token
     },
@@ -62,6 +63,9 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
           componentStyle={ComponentStyle.Mobile}
           isUnreadHistory={false}
           isShowMobilePoweredBy={true}
+          onClickHistoryItem={(id:string) => {
+            // your logic
+          }}
         />
       </ETransferLayoutProvider>
     </ETransferStyleProvider>
@@ -71,17 +75,17 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
 
 #### Component properties
 
-<table data-header-hidden><thead><tr><th width="134"></th><th width="128"></th><th width="107"></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Type</strong></td><td><strong>Required</strong></td><td><strong>Remarks</strong></td></tr><tr><td>className</td><td>string</td><td>false</td><td>The additional class to History.</td></tr><tr><td>componentStyle</td><td>ComponentStyle<br></td><td>false</td><td>Component style configuration items.<code>ComponentStyle.Mobile</code> is a UI that is better adapted to mobile size.<code>ComponentStyle.Web</code> is a UI that is better adapted to web size.If you want to configure responsiveness, please switch the UI style at the appropriate time.Default is <code>ComponentStyle.Web</code></td></tr><tr><td>isUnreadHistory</td><td>boolean</td><td>false</td><td>Does the user have unread messages</td></tr><tr><td>isShowMobilePoweredBy</td><td>boolean</td><td>false</td><td>Whether to display the mobile <strong>Powered By ETransfer</strong> logo.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="134"></th><th width="128"></th><th width="107"></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Type</strong></td><td><strong>Required</strong></td><td><strong>Remarks</strong></td></tr><tr><td>className</td><td><code>string</code></td><td><code>false</code></td><td>The additional class to History.</td></tr><tr><td>componentStyle</td><td><code>ComponentStyle</code><br></td><td><code>false</code></td><td><p>Component style configuration items.</p><p><code>ComponentStyle.Mobile</code> is a UI that is better adapted to mobile size.</p><p><code>ComponentStyle.Web</code> is a UI that is better adapted to web size.</p><p>If you want to configure responsiveness, please switch the UI style at the appropriate time.</p><p>Default is <code>ComponentStyle.Web</code></p></td></tr><tr><td>isUnreadHistory</td><td><code>boolean</code></td><td><code>false</code></td><td>Does the user have unread messages</td></tr><tr><td>isShowMobilePoweredBy</td><td><code>boolean</code></td><td><code>false</code></td><td>Whether to display the mobile <strong>Powered By ETransfer</strong> logo.</td></tr><tr><td>onClickHistoryItem</td><td><code>(id:string)=void</code></td><td><code>false</code></td><td><p>The click event for the history item.</p><p>id: transaction order ID.</p><p>You can use this id and <code>eTransferCore.services.getRecordDetail('orderId')</code> to get more infomations.</p></td></tr></tbody></table>
 
 ### Notes
 
-* Ensure that the network configuration (`networkType`) , service URL (`etransferUrl`) and authorization (`jwt`) are accurate.
+* Ensure that the network configuration (`networkType`) , service URL (`etransferUrl`) , authorization URL (`etransferAuthUrl`) and authorization (`jwt`) are accurate.
 * Use a valid JWT token to ensure proper functionality.
 * To get `ETransferConfig authorization.jwt`, you can read [ETransfer SDK Auth](../auth.md)
 
 #### More Example
 
-For more details and use cases, check out the [github example code](https://github.com/ETransferProject/etransfer-toolkit/blob/master/packages/example/src/app/history/page.tsx).\
+If you want to use the `History` and `TransferDetail` components together, please refer to the [ETransfer UI SDK Transfer Detail Comonent](transferdetail-component.md) and [github example code](https://github.com/ETransferProject/etransfer-toolkit/blob/master/packages/example/src/app/history/page.tsx).\
 
 
 ## Contact Us

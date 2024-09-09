@@ -97,3 +97,18 @@ yarn add @etransfer/ui-react
   "react-dom": "^18.2.0"
 }
 ```
+
+### @etransfer/socket
+
+If you want to use WebSocket technology, such as listening to message notifications, please install this package as follows.
+
+#### Commands
+
+To install the package, use one of the following commands.
+
+```bash
+npm install @etransfer/socket
+# OR
+yarn add @etransfer/socket
+```
+

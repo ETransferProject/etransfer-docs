@@ -20,6 +20,7 @@
       * [Deposit Component](sdk/get-started/ui-sdk/deposit-component.md)
       * [Withdraw Comonent](sdk/get-started/ui-sdk/withdraw-comonent.md)
       * [History Comonent](sdk/get-started/ui-sdk/history-comonent.md)
+      * [TransferDetail Component](sdk/get-started/ui-sdk/transferdetail-component.md)
       * [ETransferContent Comonent](sdk/get-started/ui-sdk/etransfercontent-comonent.md)
 * [Install portkey wallet](install-portkey-wallet.md)
 * [FAQ](faq.md)
