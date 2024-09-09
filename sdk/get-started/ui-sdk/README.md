@@ -16,11 +16,13 @@
 [history-comonent.md](history-comonent.md)
 {% endcontent-ref %}
 
+{% content-ref url="transferdetail-component.md" %}
+[transferdetail-component.md](transferdetail-component.md)
+{% endcontent-ref %}
+
 {% content-ref url="etransfercontent-comonent.md" %}
 [etransfercontent-comonent.md](etransfercontent-comonent.md)
 {% endcontent-ref %}
-
-
 
 
 
