@@ -57,7 +57,7 @@ yarn add @etransfer/utils
 
 #### Project Dependencies
 
-`@etransfer/core`'s peer dependencies are listed below, they need to be installed together.
+`@etransfer/utils`'s peer dependencies are listed below, they need to be installed together.
 
 ```json
 {
@@ -69,3 +69,46 @@ yarn add @etransfer/utils
   "query-string": "^7.1.1"
 }
 ```
+
+### @etransfer/ui-react
+
+{% hint style="info" %}
+If you want to use common methods, such as operating contracts, formatting error messages, etc, please install the package as follows.
+{% endhint %}
+
+#### Commands
+
+To install the package, use one of the following commands.
+
+```bash
+npm install @etransfer/ui-react
+# OR
+yarn add @etransfer/ui-react
+```
+
+#### Project Dependencies
+
+`@etransfer/ui-react`'s peer dependencies are listed below, they need to be installed together.
+
+```json
+{
+  "aelf-sdk": "^3.4.8",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
+}
+```
+
+### @etransfer/socket
+
+If you want to use WebSocket technology, such as listening to message notifications, please install this package as follows.
+
+#### Commands
+
+To install the package, use one of the following commands.
+
+```bash
+npm install @etransfer/socket
+# OR
+yarn add @etransfer/socket
+```
+

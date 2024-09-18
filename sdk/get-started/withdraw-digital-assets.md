@@ -14,7 +14,7 @@ Transfer assets from the aelf chain to other chains.
 
 Based on the token, network and other information selected by the user, generate TransactionRaw and submit it to the server to complete the creation of the withdrawal order.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to use
 
@@ -102,7 +102,7 @@ const result = await eTransferCore.services.getNetworkList({
 
 <table><thead><tr><th width="192">Field</th><th width="178">Type</th><th>Remarks</th></tr></thead><tbody><tr><td>network</td><td><code>string</code></td><td>Network</td></tr><tr><td>name</td><td><code>string</code></td><td>Network name</td></tr><tr><td>multiConfirm</td><td><code>string</code></td><td>Network block confirmations</td></tr><tr><td>multiConfirmTime</td><td><code>string</code></td><td>Network block confirmation time</td></tr><tr><td>contractAddress</td><td><code>string</code></td><td>Network contract address</td></tr><tr><td>explorerUrl</td><td><code>string</code></td><td>Network explorer address</td></tr><tr><td>status</td><td><code>NetworkStatus</code></td><td>Network health status <code>'Health' | 'Congesting' | 'Offline'</code></td></tr><tr><td>withdrawFee</td><td><code>string</code></td><td>Network withdrawal fee</td></tr><tr><td>withdrawFeeUnit</td><td><code>string</code></td><td>Network withdrawal fee unit</td></tr></tbody></table>
 
-#### Get withdraw information
+#### Get withdrawal information
 
 Acquire the withdrawal information and transaction fee.
 

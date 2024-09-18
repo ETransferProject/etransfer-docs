@@ -23,3 +23,7 @@
 {% content-ref url="withdraw-digital-assets.md" %}
 [withdraw-digital-assets.md](withdraw-digital-assets.md)
 {% endcontent-ref %}
+
+{% content-ref url="ui-sdk/" %}
+[ui-sdk](ui-sdk/)
+{% endcontent-ref %}

@@ -9,11 +9,14 @@ You can find basic configuration information here, including server address, etc
 {% tabs %}
 {% tab title="MAINNET" %}
 * ETransfer server URL
-  * [https://etransfer.exchange](https://etransfer.exchange)
+  * [https://app.etransfer.exchange](https://app.etransfer.exchange)
   * Use it to obtain data such as currency, network, deposit and withdrawal information, etc.
 * ETransfer auth server URL
-  * [https://etransfer.exchange](https://etransfer.exchange)
+  * [https://app.etransfer.exchange](https://app.etransfer.exchange)
   * Use it to obtain authorization token.
+* ETransfer socket server URL
+  * [https://app.etransfer.exchange](https://app.etransfer.exchange)
+  * Use it to establish a socket connection.
 * AELF information
   * ```json
     {
@@ -42,11 +45,14 @@ You can find basic configuration information here, including server address, etc
 
 {% tab title="TESTNET" %}
 * ETransfer server URL
-  * [https://test.etransfer.exchange](https://test.etransfer.exchange)
+  * [https://test-app.etransfer.exchange](https://test-app.etransfer.exchange)
   * Use it to obtain data such as currency, network, deposit and withdrawal information, etc.
 * ETransfer auth server URL
-  * [https://test.etransfer.exchange](https://test.etransfer.exchange)
+  * [https://test-app.etransfer.exchange](https://test-app.etransfer.exchange)
   * Use it to obtain authorization token.
+* ETransfer socket server URL
+  * [https://test-app.etransfer.exchange](https://test-app.etransfer.exchange)
+  * Use it to establish a socket connection.
 * AELF information
   * ```json
     {
