@@ -109,6 +109,7 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
 * Ensure that the network configuration (`networkType`) , service URL (`etransferUrl`) , authorization URL (`etransferAuthUrl`) , socket URL (`etransferSocketUrl`) and authorization (`jwt`) are accurate.
 * Use a valid JWT token to ensure proper functionality.
 * To get `ETransferConfig authorization.jwt`, you can read [ETransfer SDK Auth](../auth.md)
+* If you are using the message notification feature, please actively call `@etransfer/ui-react` `unsubscribeUserOrderRecord` method to cancel the WebSocket listener when logging out.
 
 #### More Example
 
