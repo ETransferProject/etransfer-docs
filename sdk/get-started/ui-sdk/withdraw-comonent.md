@@ -17,9 +17,9 @@ If you want to quickly access the ETransfer withdrawal function, please use this
 * **Complete the withdrawal:** Click the _Withdraw_ button and follow the prompts to authorize the withdrawal, and you can complete the withdrawal.
 * **Notification:** You can see the processing transaction tip and the transaction completion notification.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="374"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>ComponentStyle.Web</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p>Processing transaction tip</p></figcaption></figure>
 

@@ -12,7 +12,7 @@ If you want to quickly integrate the transaction details viewing feature, please
 * Show transaction hash, address, token and amount.
 * Update the transaction progress in real-time while staying on the page.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ## How to use
 
