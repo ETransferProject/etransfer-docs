@@ -17,13 +17,13 @@ If you want to quickly access the deposit, withdrawal and querying history funct
 * **Display User account address:** Display the user's account address in the navigation header. You can also choose to hide it.
 * **Jump to the ETransfer official website:** Click the logo in the navigation header to jump to the ETransfer official website.
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt="" width="331"><figcaption><p>Deposit - ComponentStyle.Mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt="" width="330"><figcaption><p>Deposit - ComponentStyle.Mobile</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt="" width="375"><figcaption><p>Withdraw - ComponentStyle.Mobile</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="333"><figcaption><p>History - ComponentStyle.Mobile</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Deposit - ComponentStyle.Web</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Deposit - ComponentStyle.Web</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Withdraw - ComponentStyle.Web</p></figcaption></figure>
 
