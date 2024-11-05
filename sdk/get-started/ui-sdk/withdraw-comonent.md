@@ -68,6 +68,18 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
     authorization: {
       jwt: 'Bearer xxx', // ETransfer authorization token
     },
+    accountInfo: {
+      tokenContractCallSendMethod: () => {
+        // your logic
+      }},
+      getSignature: () = > {
+        // your logic
+      }},
+      walletType: 'your walletType',
+      accounts: {},
+      managerAddress: walletType === WalletTypeEnum.elf ? ownerAddress : managerAddress,
+      caHash: 'your caHash',
+    }
   });
 
   return (
