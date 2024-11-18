@@ -83,7 +83,7 @@ export default function ETransferLayout({ children }: { children: React.ReactNod
 
 #### More Example
 
-If you want to use the `History` and `TransferDetail` components together, please refer to the [ETransfer UI SDK History Component](history-comonent.md) and [github example code](https://github.com/ETransferProject/etransfer-toolkit/blob/master/packages/example/src/app/history/page.tsx) .\
+If you want to use the `History` and `TransferDetail` components together, please refer to the [ETransfer UI SDK History Component](history-component.md) and [github example code](https://github.com/ETransferProject/etransfer-toolkit/blob/master/packages/example/src/app/history/page.tsx) .\
 
 
 ## Contact Us

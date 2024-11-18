@@ -8,20 +8,20 @@
 [deposit-component.md](deposit-component.md)
 {% endcontent-ref %}
 
-{% content-ref url="withdraw-comonent.md" %}
-[withdraw-comonent.md](withdraw-comonent.md)
+{% content-ref url="withdraw-component.md" %}
+[withdraw-component.md](withdraw-component.md)
 {% endcontent-ref %}
 
-{% content-ref url="history-comonent.md" %}
-[history-comonent.md](history-comonent.md)
+{% content-ref url="history-component.md" %}
+[history-component.md](history-component.md)
 {% endcontent-ref %}
 
 {% content-ref url="transferdetail-component.md" %}
 [transferdetail-component.md](transferdetail-component.md)
 {% endcontent-ref %}
 
-{% content-ref url="etransfercontent-comonent.md" %}
-[etransfercontent-comonent.md](etransfercontent-comonent.md)
+{% content-ref url="etransfercontent-component.md" %}
+[etransfercontent-component.md](etransfercontent-component.md)
 {% endcontent-ref %}
 
 

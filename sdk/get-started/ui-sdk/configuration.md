@@ -2,7 +2,7 @@
 
 ## Config Provider
 
-This provider supports you to configure the business environment and the scope of business support, which is one of the means for you to flexibly build ETranfer.
+This provider supports you to configure the business environment and the scope of business support, which is one of the means for you to flexibly build ETransfer.
 
 ### **Example**
 

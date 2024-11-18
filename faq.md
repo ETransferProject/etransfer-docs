@@ -2,7 +2,7 @@
 
 ### **What is ETransfer?**
 
-ETransfer is a cross-chain service developed by the ETransfer team of the aelf community,， Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems, and push our industry towards more openness and interoperability.
+ETransfer is a cross-chain service developed by the ETransfer team of the aelf community, Etransfer will allow unconstrained transfer of information and value between heterogeneous ecosystems, and push our industry towards more openness and interoperability.
 
 ### **How to deposit to aelf by ETransfer?**
 
@@ -26,7 +26,7 @@ ETransfer is a cross-chain service developed by the ETransfer team of the aelf c
 
 ### **My assets have not arrived.**
 
-You can check the transfer status in History. If the hash of the receiving chain has not been confirmed yet, please wait patiently for the transaction confirmation. If the hash of the receiving chain has been confirmed and has not yet arrived, you can contact us through Support\\
+You can check the transfer status in History. If the hash of the receiving chain has not been confirmed yet, please wait patiently for the transaction confirmation. If the hash of the receiving chain has been confirmed and has not yet arrived, you can contact us through Support.
 
 ### **How long does it take for the transfer to be completed?**
 

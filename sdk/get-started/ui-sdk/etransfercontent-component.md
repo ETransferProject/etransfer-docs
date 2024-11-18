@@ -1,4 +1,4 @@
-# ETransferContent Comonent
+# ETransferContent Component
 
 ## Introduction
 
@@ -7,11 +7,11 @@ If you want to quickly access the deposit, withdrawal and querying history funct
 
 ### Feature
 
-#### ETransferContent's functions and UIs are as follows:
+#### ETransfer Content's functions and UIs are as follows:
 
 * **Deposit assets:** The functionality is the same as [ETransfer UI SDK Deposit Component](deposit-component.md).
-* **Withdrawal assets:** The functionality is the same as [ETransfer UI SDK Withdraw Comonent](withdraw-comonent.md).
-* **Querying historical records:** The functionality is the same as [ETransfer UI SDK History Comonent](history-comonent.md).
+* **Withdrawal assets:** The functionality is the same as [ETransfer UI SDK Withdraw Comonent](withdraw-component.md).
+* **Querying historical records:** The functionality is the same as [ETransfer UI SDK History Comonent](history-component.md).
 * **Viewing transaction details:** The functionality is the same as [ETransfer UI SDK Transfer Detail Comonent](transferdetail-component.md).
 * **Unread message reminder:** If you have unread transaction records, an unread record reminder will be displayed on the sidebar or navigation menu.
 * **Display User account address:** Display the user's account address in the navigation header. You can also choose to hide it.
