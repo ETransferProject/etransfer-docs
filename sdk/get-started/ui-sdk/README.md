@@ -16,12 +16,12 @@
 [history-component.md](history-component.md)
 {% endcontent-ref %}
 
-{% content-ref url="transferdetail-component.md" %}
-[transferdetail-component.md](transferdetail-component.md)
+{% content-ref url="transfer-detail-component.md" %}
+[transfer-detail-component.md](transfer-detail-component.md)
 {% endcontent-ref %}
 
-{% content-ref url="etransfercontent-component.md" %}
-[etransfercontent-component.md](etransfercontent-component.md)
+{% content-ref url="etransfer-content-component.md" %}
+[etransfer-content-component.md](etransfer-content-component.md)
 {% endcontent-ref %}
 
 
