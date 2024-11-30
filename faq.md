@@ -25,7 +25,7 @@ Compared to other cross-chain services, ETransfer has the following advantages:
 * **Seamless Integration**
   * ETransfer provides both a Core SDK and a UI SDK, giving developers the flexibility to accommodate a wide range of custom integration requirements.
 
-### **Are There Any Fees Involved?**
+### **Are there any fees involved?**
 
 For cross-chain transfers, you need to pay two fees:
 
