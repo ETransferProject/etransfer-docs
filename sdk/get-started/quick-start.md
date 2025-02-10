@@ -50,6 +50,7 @@ eTransferCore.init({
 ```javascript
 import { eTransferCore } from '@etransfer/core';
 
+// get aelf chain authorization token
 const result = await eTransferCore.services.getAuthToken(
   {
     chain_id: 'AELF', // AELF or tDVV
@@ -62,9 +63,35 @@ const result = await eTransferCore.services.getAuthToken(
   },
   { baseURL: 'etransfer auth url' },
 );
+
+
+// get other chain authorization token
+const result = await eTransferCore.services.getOtherChainAuthToken(
+  {
+    signature: 'user signature',
+    plain_text: 'signed text',
+    pubkey: 'user account pubkey',
+    sourceType: AuthTokenSource.EVM,
+    recaptchaToken: 'google recaptcha token',
+  },
+  { baseURL: 'etransfer auth url' },
+);
 ```
 
-#### Check the transaction status of an EOA address
+#### Check the registration status of an address
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.checkRegistration(
+  {
+    address: 'your account address',
+    sourceType: 'your wallet source type'; // eg: "EVM"
+  }
+);
+```
+
+#### Check the registration status of an EOA address
 
 ```typescript
 import { eTransferCore } from '@etransfer/core';
@@ -89,6 +116,11 @@ const result = await eTransferCore.services.getTokenList({
   type: 'Withdraw',
   chainId: 'AELF', // or 'tDVV'
 });
+
+// Acquire transfer cryptos
+const result = await eTransferCore.services.getTokenList({
+  type: 'Transfer',
+});
 ```
 
 #### Acquire token price
@@ -109,10 +141,16 @@ const result = await eTransferCore.services.getTokenPrices({
 ```javascript
 import { eTransferCore } from '@etransfer/core';
 
+// Acquire deposit or withdrawal network list
 const result = await eTransferCore.services.getNetworkList({
   type: 'Deposit', // or 'Withdraw'
   chainId: 'AELF', // or 'tDVV'
   symbol: 'USDT', // Get data from eTransferCore.services[getTokenOption|getTokenList]
+});
+
+// Acquire transfer network list
+const result = await eTransferCore.services.getNetworkList({
+  type: 'Transfer',
 });
 ```
 
@@ -199,5 +237,75 @@ const result = await eTransferCore.services.getRecordDetail('orderId');
 ```javascript
 import { eTransferCore } from '@etransfer/core';
 
+// If authorization token is set in the request header, and you only want to get the unread order messages of the account corresponding to authorization token.
 const result = await eTransferCore.services.getRecordStatus();
+
+// If you want to get the unread message status of multiple addresses.
+const result = await eTransferCore.services.getRecordStatus({
+  addressList: ['address1', 'address2']
+});
+```
+
+#### Get the matching relationship between token and network for 'Transfer'
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.getTokenNetworkRelation({}, 'your authorization token');
+```
+
+#### Acquire transfer information
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.getTransferInfo({
+ symbol: 'USDT', // get data from eTransferCore.services.getTokenNetworkRelation
+ fromNetwork: 'ETH', // transfer source Network, get data from eTransferCore.services.getTokenNetworkRelation
+ toNetwork: 'tDVV', // transfer target Network, get data from eTransferCore.services.getTokenNetworkRelation
+ amount: '10', // transfer amount, without decimals
+ fromAddress: 'source address', // Please remove the prefix and suffix of the ELF-DID address
+ toAddress: 'transfer target address', // Please remove the prefix and suffix of the ELF-DID address
+ memo: 'memo', // comment for Ton
+ version: PortkeyVersion.v2,
+ sourceType: WalletSourceType.EVM, // WalletSourceType is 'EVM' | 'Solana' | 'TRX' | 'Ton' | 'Portkey'
+});
+```
+
+#### Create transfer order
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.createTransferOrder({
+  amount: '10', // transfer amount, without decimals
+  fromNetwork: 'ETH', // transfer source Network, get data from eTransferCore.services.getTokenNetworkRelation
+  toNetwork: 'tDVV', // transfer target Network, get data from eTransferCore.services.getTokenNetworkRelation
+  fromSymbol: 'USDT', // get data from eTransferCore.services.getTokenNetworkRelation
+  toSymbol: 'USDT', // get data from eTransferCore.services.getTokenNetworkRelation
+  fromAddress: 'source address', // Please remove the prefix and suffix of the ELF-DID address
+  toAddress: 'transfer target address', // Please remove the prefix and suffix of the ELF-DID address
+  memo: 'memo', // comment for Ton
+  rawTransaction: 'transaction raw',
+});
+```
+
+#### Update transfer order status
+
+```javascript
+import { eTransferCore } from '@etransfer/core';
+
+const result = await eTransferCore.services.updateTransferOrder({
+  amount: '10', // transfer amount, without decimals
+  fromNetwork: 'ETH', // transfer source Network, get data from eTransferCore.services.getTokenNetworkRelation
+  toNetwork: 'tDVV', // transfer target Network, get data from eTransferCore.services.getTokenNetworkRelation
+  fromSymbol: 'USDT', // get data from eTransferCore.services.getTokenNetworkRelation
+  toSymbol: 'USDT', // get data from eTransferCore.services.getTokenNetworkRelation
+  fromAddress: 'source address', // Please remove the prefix and suffix of the ELF-DID address
+  toAddress: 'transfer target address', // Please remove the prefix and suffix of the ELF-DID address
+  address: 'token pool address', // get data from eTransferCore.services.createTransferOrder
+  memo: 'memo', // comment for Ton
+  txId: 'transactin id', // get data from eTransferCore.services.createTransferOrder
+  status: UpdateTransferOrderStatus.Rejected,
+});
 ```
