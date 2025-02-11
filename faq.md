@@ -90,3 +90,9 @@ If you want to request the integration of a new chain or token in ETransfer, ple
 The ETransfer bot is an official mini-App launched by ETransfer on Telegram. Telegram users can use ETransfer without downloading and registering aelf chain wallet, enabling asset transfers between the aelf chain and other chains. Currently, Telegram users can use all ETransfer functions, including Deposit, Withdraw, and Info.
 
 Go to \[[https://t.me/ETransferOfficial\_bot](https://t.me/ETransferOfficial_bot)] and click "Start" or directly type "/Start" to see the current ETransfer function menu.
+
+### **How do I initiate a cross-chain withdraw on ETransfer?**
+
+* Select the “From” chain and “To” chain for the transfer.
+* Connect the wallet of the "From" chain and enter the receiving address of the "To" chain.
+* Enter the amount you wish to send, and confirm transaction details before pressing “Withdraw”.
