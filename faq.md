@@ -91,7 +91,7 @@ The ETransfer bot is an official mini-App launched by ETransfer on Telegram. Tel
 
 Go to \[[https://t.me/ETransferOfficial\_bot](https://t.me/ETransferOfficial_bot)] and click "Start" or directly type "/Start" to see the current ETransfer function menu.
 
-### **How do I initiate a cross-chain withdraw on ETransfer?**
+### **How do I initiate a withdrawal on ETransfer?**
 
 * Select the “From” chain and “To” chain for the transfer.
 * Connect the wallet of the "From" chain and enter the receiving address of the "To" chain.
